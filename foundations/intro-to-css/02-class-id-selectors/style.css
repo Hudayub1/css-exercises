@@ -6,5 +6,16 @@
 
 .Number-3 {
     font-size: 24px ;
-    
+
+}
+
+#Number-2 {
+    color: rgb(0, 47, 255);
+    font-size: 36px;
+}
+
+#Number-4 {
+    background-color: rgb(91, 238, 98);
+    font-weight: bold;
+    font-size: 24px;
 }
