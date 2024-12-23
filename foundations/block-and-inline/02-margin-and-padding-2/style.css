@@ -21,13 +21,15 @@ body {
 .content {
   background: #e3f4ff;
   margin: 8px;
-  padding: 8px;
+  padding:  16px 8px;
+
+   /*  this can be used but redundant ?
   padding-top: 16px;
   padding-bottom: 16px;
   padding-right: 8px;
-  padding-left: 8px;
+  padding-left: 8px; */
 }
-
+/* all seems okay here */
 .button-container {
   background: #e3f4ff;
   margin: 8px;
@@ -35,14 +37,21 @@ body {
   text-align: center;
 }
 
-.button {
+/* put .button so the html elemnt couldnt recognize the class button is not a class in the html */
+button {
   background: white;
   border: 1px solid #eee;
+  /*  
   margin: 8px;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 8px;
   padding-bottom: 8px;
+  */
+
+  display: block;
+  margin: auto;
+  padding: 8px 24px ;
   
   
 }
