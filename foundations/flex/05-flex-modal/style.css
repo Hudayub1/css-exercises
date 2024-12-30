@@ -71,16 +71,18 @@ button.cancel {
 }
 
 /* This is my solution */
-
-.top-l{
-  display: flex;
-  gap: 20px;
-  
-}
-
-.top-r{
+/*  
+.icon{
 display: flex;
 justify-content: center;
+
+}
+.top-1 {
+ display: flex;
+ text-align: center;
+ justify-content: space-between; 
+ margin-left: 60px;
+ margin-bottom: 10px;
 }
 
 .header{
@@ -98,4 +100,33 @@ justify-content: center;
 
 .bottom{
   margin-top:10px ;
+}
+
+ */
+
+ /* odin solution */
+
+
+.modal {
+  display:flex ;
+  gap:16px ;
+  padding:16px ;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+/* header container should be wrapped around the button element as well in order for flex style to work */
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
