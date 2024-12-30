@@ -29,11 +29,13 @@ input {
 
 /* Header mine */
 
+
 body {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-
+  flex: 1;
+  flex-shrink: 0;
 }
 
 ul {
@@ -48,6 +50,7 @@ ul {
   justify-content: space-between;
   gap: 15px;
   padding-right: 10px;
+  
 }
 
 a {
@@ -77,9 +80,10 @@ button {
 .right-links-f {
   display: flex;
   justify-content: space-between;
-  padding-right: 10px;
+  padding-right: 15px;
   background-color: #eee;
   gap: 15px;
+  
 }
 
 
