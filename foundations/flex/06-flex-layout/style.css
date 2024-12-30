@@ -24,3 +24,60 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+
+/* Header mine */
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none ;
+  text-decoration: none;
+}
+
+.header {
+ 
+}
+
+.header,
+.left-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.header,
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+
+/* Content and image mine */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+button {
+  padding: 10px;
+}
+
+/* Footer mine */
+
+.footer,
+.left-links,
+.right-links {
+display: flex;
+justify-content: space-between;
+}
+
+
