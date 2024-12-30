@@ -44,13 +44,51 @@ body {
   
 }
 
-/* My Sidebar */
+/* My Sidebar and card */
 
-.sidebar {
-display: flex;
-flex-direction: column;
-padding-bottom: 500;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
 }
 
-/* My card */
+.sidebar {
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+li {
+  list-style-type: none;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+
+
+.container-2 {
+  display: fle;
+  padding: 48px;
+  flex-wrap:wrap ;
+}
+
+.card {
+  padding: 100px ;
+}
+
+
+
 /* My footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
