@@ -34,7 +34,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  
 }
 
 .header {
@@ -50,12 +50,14 @@ body {
 
 .container {
   display: flex;
+  flex: 1;
 }
 
 .sidebar {
   padding: 16px;
   display: flex;
   flex-shrink: 0;
+  justify-content: flex-start;
   
 }
 
