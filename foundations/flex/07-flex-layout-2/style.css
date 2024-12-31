@@ -34,6 +34,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .header {
@@ -49,21 +50,21 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
-  
 }
 
 .sidebar {
   padding: 16px;
   display: flex;
-  justify-content: flex-start;
+  flex-shrink: 0;
+  
 }
 
 
 li {
   list-style-type: none;
-  
+  margin-bottom: 16px;
 }
+
 
 a {
   text-decoration: none;
@@ -73,14 +74,18 @@ a {
 
 
 
+
 .container-2 {
-  display: fle;
+  display: flex;
   padding: 48px;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
+  gap: 32px;
+ 
 }
 
 .card {
-  padding: 100px ;
+  padding: 16px ;
+  width: 300px;
 }
 
 
